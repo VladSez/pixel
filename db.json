@@ -1,0 +1,66 @@
+{
+  "progress": [
+    {
+      "id": 1,
+      "title": "1 урок",
+      "text" : "Базовая анимация и маски",
+      "icon":"https://image.flaticon.com/icons/svg/1403/1403968.svg",
+      "results": [
+        {
+          "text" : "ДЗ Домик принята",
+          "status": "approved",
+          "icon":"https://image.flaticon.com/icons/svg/616/616945.svg"
+        },
+        {
+          "text" : "ДЗ Домик принята",
+          "status": "approved",
+          "icon":"https://image.flaticon.com/icons/svg/616/616945.svg"
+        },
+        {
+          "text" : "ДЗ Домик принята",
+          "status": "approved",
+          "icon":"https://image.flaticon.com/icons/svg/616/616945.svg"
+        }
+      ]
+    },
+    {
+    "id": 2,
+    "title": "2 урок",
+    "text" : "Морфинг и рисование пером",
+    "icon":"https://image.flaticon.com/icons/svg/1403/1403968.svg",
+    "results": [
+        {
+          "text" : "ДЗ Анимация дерева необходимо доработать",
+          "status": "error",
+          "icon":"https://image.flaticon.com/icons/svg/616/616949.svg"
+        }
+      ]
+    },
+     {
+    "id": 3,
+    "title": "3 урок",
+    "text" : "Разбор эффектов. Брендинг и импорт",
+    "icon":"https://image.flaticon.com/icons/svg/1403/1403968.svg",
+      "results": [
+        {
+          "text" : "ДЗ Анимация на проверке",
+          "status": "waiting",
+          "icon":"https://image.flaticon.com/icons/svg/616/616944.svg"
+        }
+      ]
+    },
+     {
+    "id": 4,
+    "title": "4 урок",
+    "text" : "Работа с выражениями и создание колебаний",
+    "icon":"https://image.flaticon.com/icons/svg/1403/1403968.svg",
+      "results": [
+        {
+          "text" : "Ожидаем ДЗ Иллюстрация мяча",
+          "status": "notSubmitted",
+          "icon":"https://image.flaticon.com/icons/svg/616/616946.svg"
+        }
+      ]
+    }
+  ]
+}
