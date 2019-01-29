@@ -8,16 +8,13 @@
       "status": "approved",
       "results": [
         {
-          "text" : "ДЗ Домик принята",
-          "icon":"https://image.flaticon.com/icons/svg/616/616945.svg"
+          "text" : "ДЗ Домик принята"
         },
         {
-          "text" : "ДЗ Домик принята",
-          "icon":"https://image.flaticon.com/icons/svg/616/616945.svg"
+          "text" : "ДЗ Домик принята"
         },
         {
-          "text" : "ДЗ Домик принята",
-          "icon":"https://image.flaticon.com/icons/svg/616/616945.svg"
+          "text" : "ДЗ Домик принята"
         }
       ]
     },
@@ -29,8 +26,7 @@
     "status": "error",
     "results": [
         {
-          "text" : "ДЗ Анимация дерева необходимо доработать",
-          "icon":"https://image.flaticon.com/icons/svg/616/616949.svg"
+          "text" : "ДЗ Анимация дерева необходимо доработать"
         }
       ]
     },
@@ -42,8 +38,7 @@
     "status": "waiting",
       "results": [
         {
-          "text" : "ДЗ Анимация на проверке",
-          "icon":"https://image.flaticon.com/icons/svg/616/616944.svg"
+          "text" : "ДЗ Анимация на проверке"
         }
       ]
     },
@@ -55,8 +50,7 @@
     "status": "notSubmitted",
       "results": [
         {
-          "text" : "Ожидаем ДЗ Иллюстрация мяча",
-          "icon":"https://image.flaticon.com/icons/svg/616/616946.svg"
+          "text" : "Ожидаем ДЗ Иллюстрация мяча"
         }
       ]
     }
