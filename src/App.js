@@ -4,27 +4,11 @@ import ProgressList from './components/ProgressList'
 import './App.css'
 
 class App extends Component {
-  state = {
-    data: null,
-  }
-  async componentDidMount() {
-    // fetch('http://localhost:3001/progres')
-    //   .then((res) => res.json())
-    //   .then((data) => this.setState({ data }))
-    //   .catch((err) => alert(err))
-    // const response = await fetch('http://localhost:3001/progress') // get users list
-    // const status = response.statusText
-    // if (status === 'OK') {
-    //   const data = await response.json() // parse JSON
-    //   this.setState({ data })
-    // } else {
-    //   this.setState({ status })
-    // }
+  componentDidMount() {
     this.props.onRequestData()
   }
   render() {
     const { data, fetching, error } = this.props
-    console.log(data)
     if (fetching) {
       return 'loading...'
     }

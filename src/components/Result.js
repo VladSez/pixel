@@ -15,6 +15,7 @@ export default Result
 const Container = styled.div`
   display: flex;
   align-items: center;
+  cursor: pointer;
 `
 const Image = styled.img`
   width: 15px;
@@ -23,18 +24,18 @@ const Image = styled.img`
 `
 const Status = styled.p`
   text-align: start;
-  color: ${(props) => {
+  color: ${props => {
     if (props.status === 'error') {
       return 'red'
     }
-    if(props.status === 'approved'){
-        return '#8ABF49'
+    if (props.status === 'approved') {
+      return '#8ABF49'
     }
-    if(props.status === 'waiting'){
-        return 'orange'
+    if (props.status === 'waiting') {
+      return 'orange'
     }
-    if(props.status === 'notSubmitted'){
-        return 'gray'
+    if (props.status === 'notSubmitted') {
+      return 'gray'
     }
   }};
 `
