@@ -1,5 +1,4 @@
-## To start project - npm start
+## To start project - npm start or yarn start
 
-Please, do not use yarn (fixing this right now)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
