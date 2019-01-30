@@ -1,6 +1,6 @@
 ## To start project 
 ```
-yarn start or npm start
+yarn start
 ```
 or
 
