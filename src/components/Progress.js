@@ -8,23 +8,25 @@ function Progress({ title, text, icon, results, status }) {
       <DotContainer>
         <Dot status={status} />
       </DotContainer>
-      <LeftColumn>
-        <Image src={icon} alt="icon" />
-        <TextContainer>
-          <Title>{title}</Title>
-          <Text>{text}</Text>
-        </TextContainer>
-        {status === "notSubmitted" && (
-          <Badge>
-            <BadgeText>Новый</BadgeText>
-          </Badge>
-        )}
-      </LeftColumn>
-      <ResultsContainer>
-        {results.map((result, id) => (
-          <Result {...result} key={id} status={status} /> //bad practice putting id in key
-        ))}
-      </ResultsContainer>
+      <ContentContainer>
+        <LeftColumn>
+          <Image src={icon} alt="icon" />
+          <TextContainer>
+            <Title>{title}</Title>
+            <Text>{text}</Text>
+          </TextContainer>
+          {status === "notSubmitted" && (
+            <Badge>
+              <BadgeText>Новый</BadgeText>
+            </Badge>
+          )}
+        </LeftColumn>
+        <ResultsContainer>
+          {results.map((result, id) => (
+            <Result {...result} key={id} status={status} /> //bad practice putting id in key
+          ))}
+        </ResultsContainer>
+      </ContentContainer>
     </Container>
   );
 }
@@ -38,6 +40,9 @@ const Container = styled.div`
   width: 1164px;
   max-width: 100%;
   height: 100px;
+  @media only screen and (max-width: 767px) {
+    height: 200px;
+  }
 `;
 const DotContainer = styled.div`
   display: flex;
@@ -64,6 +69,13 @@ const Dot = styled.div`
   position: relative;
   right: 18px;
 `;
+const ContentContainer = styled.div`
+  display: flex;
+  width: 100%;
+  @media only screen and (max-width: 767px) {
+    flex-direction: column;
+  }
+`;
 const LeftColumn = styled.div`
   display: flex;
   align-items: center;
@@ -73,6 +85,9 @@ const LeftColumn = styled.div`
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   padding: 20px;
   position: relative;
+  @media only screen and (max-width: 767px) {
+    width: initial;
+  }
 `;
 const Image = styled.img`
   width: 50px;
@@ -106,4 +121,8 @@ const ResultsContainer = styled.div`
   flex-flow: column;
   width: 50%;
   margin-left: 30px;
+  @media only screen and (max-width: 767px) {
+    width: initial;
+    margin-left: 0;
+  }
 `;

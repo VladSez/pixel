@@ -41,6 +41,10 @@ const Line2 = styled.div`
   left: -11px;
   top: 147px;
   background: linear-gradient(180deg, rgba(235,110,22,1) 0%, rgba(254,218,71,1) 100%);
+  @media only screen and (max-width: 767px) {
+    top: 32%;
+    height: 30%;
+  }
 `
 const Line3 = styled.div`
   width: 6px;
@@ -50,6 +54,10 @@ const Line3 = styled.div`
   left: -11px;
   bottom: 55px;
   background: linear-gradient(180deg, rgba(254,218,71,1) 0%, rgba(76,143,224,1) 100%);
+  @media only screen and (max-width: 767px) {
+    bottom: 13%;
+    height: 26%;
+  }
 `
 const Line4 = styled.div`
   width: 6px;
@@ -58,4 +66,8 @@ const Line4 = styled.div`
   position: absolute;
   left: -11px;
   bottom: -20px;
+  @media only screen and (max-width: 767px) {
+    bottom: 2%;
+    height: 12%;
+  }
 `
