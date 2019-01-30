@@ -1,6 +1,6 @@
 import React from 'react'
 import Progress from './Progress'
-import styled from 'styled-components'
+import styled from 'styled-components/macro'
 
 function ProgressList({ progress }) {
   return (

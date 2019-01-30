@@ -1,6 +1,6 @@
 import React from "react";
 import Result from "./Result";
-import styled from "styled-components";
+import styled from "styled-components/macro";
 
 function Progress({ title, text, icon, results, status }) {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+import styled from "styled-components/macro";
 import { Check } from "styled-icons/boxicons-regular/Check";
 import { Flag } from "styled-icons/fa-solid/Flag";
 import { Clock } from "styled-icons/fa-regular/Clock";
