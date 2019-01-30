@@ -1,4 +1,4 @@
-## React + Redux + Styled Components 
+## React + Redux + Styled Components 👌
 ```
 yarn start
 ```
