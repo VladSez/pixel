@@ -1,4 +1,4 @@
-## To start project 
+## React + Redux + Styled Components 
 ```
 yarn start
 ```
